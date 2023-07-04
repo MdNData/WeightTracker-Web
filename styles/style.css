@@ -64,9 +64,12 @@ body {
   margin-top: -7px;
   width: 220px;
 }
+.navbar-brand img {
+  margin-top: 4px;
+}
 .navbar-brand span {
   display: inline-block;
-  padding-top: 5px;
+  padding-top: 6px;
   position: absolute;
   font-family: Lobster;
   letter-spacing: 1px;
@@ -75,7 +78,7 @@ body {
 .navbar-nav {
   margin-left: 40px !important;
   position: relative;
-  margin-bottom: -3px;
+  margin-bottom: -4px;
 }
 @media (max-width: 992px) {
   .navbar-nav {
@@ -171,4 +174,31 @@ a.nav-link:hover::after {
 
 .navbar-toggler:focus {
   box-shadow: 0 0 0 0;
+}
+
+header {
+  margin-top: 63px;
+}
+header div h1.display-3 {
+  font-family: "Archivo Black";
+  font-weight: 100;
+}
+header div .btn {
+  background-color: #eff0f2;
+  color: #0c0d16;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  padding: 8px 11px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 23px;
+  border: 1px solid #1C2541;
+  box-shadow: 0px 1px 4px #1c2541;
+  transition: 200ms all linear;
+  margin-top: 10px;
+}
+header div .btn:hover {
+  background-color: #1C2541;
+  color: white;
+  border: 1px solid white;
 }/*# sourceMappingURL=style.css.map */
