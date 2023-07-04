@@ -100,10 +100,24 @@ a.nav-link:hover::after {
     box-shadow: 0px 1px 4px #1c2541;
     transition: 200ms all linear;
     margin-top: 3px;
+
+    a {
+        color: #0c0d16;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 17px;
+        transition: 200ms all linear;
+
+    }
+    
     &:hover {
         background-color: #3385d8;
         color: white;
         border: 1px solid white;
+
+        a {
+            color: white;
+        }
     }
 
     .fa-solid.fa-user{

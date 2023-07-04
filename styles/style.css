@@ -159,10 +159,20 @@ a.nav-link:hover::after {
   transition: 200ms all linear;
   margin-top: 3px;
 }
+.btn.btn-primary a {
+  color: #0c0d16;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  transition: 200ms all linear;
+}
 .btn.btn-primary:hover {
   background-color: #3385d8;
   color: white;
   border: 1px solid white;
+}
+.btn.btn-primary:hover a {
+  color: white;
 }
 .btn.btn-primary .fa-solid.fa-user {
   margin-right: 3px;
@@ -188,7 +198,7 @@ header div .btn {
   color: #0c0d16;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  padding: 8px 11px;
+  padding: 6px 11px;
   border-radius: 8px;
   font-weight: 600;
   font-size: 23px;
